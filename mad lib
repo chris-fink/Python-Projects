@@ -1,0 +1,13 @@
+noun = input("noun: ")
+nounPlural = input("plural noun: ")
+noun2 = input("noun: ")
+place = input("place: ")
+adj = input("adjective: ")
+noun3 = input("noun: ")
+
+print (f"Be kind to your {noun}-footed {nounPlural}")
+print (f"For a duck may be somebody's {noun2},")
+print (f"Be kind to your {nounPlural} in {place}")
+print (f"Where the weather is always {adj}.")
+print (f"You may think that this is the {noun3},")
+print ("Well it is.")
