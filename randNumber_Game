@@ -1,0 +1,12 @@
+print("Can you guess the number (1-10)?")
+userNum = input("Choose a number 1-10: ")
+
+#!/usr/bin/python3
+import random
+
+randNum = random.randint(1, 10)
+
+if userNum == randNum:
+    print(f"Congratulations! {userNum} was the correct number!")
+if userNum != randNum:
+    print(f"Sorry, the correct answer was {randNum}. Try again.")
